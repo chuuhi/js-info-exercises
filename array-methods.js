@@ -75,3 +75,12 @@ filterRangeInPlace(arr, 1, 4); // removed the numbers except from 1 to 4
 console.log( arr ); // [3, 1]
 
 // -------------------------------------------------------------------------------
+// 4. Sort in decreasing order
+// importance: 4
+let arr = [5, 12, 1, -10, 8];
+
+arr.sort((a, b) => b - a)
+
+console.log( arr ); // 8, 5, 2, 1, -10
+
+// --------------------------------------------------------------------------------
